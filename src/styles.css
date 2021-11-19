@@ -1,0 +1,95 @@
+:root {
+  --primary-color: #319b74;
+  --secondary-color: #bae5d5;
+  --accent-color: #bae8e8;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px 0;
+}
+.homepage-link {
+  text-align: center;
+  display: block;
+  color: var(--primary-color);
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.navigation-links:hover {
+  cursor: pointer;
+}
+.primary-link {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(box-shadow);
+}
+.secondary-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(box-shadow);
+}
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+.about-paragraphs p {
+  margin: 10px;
+}
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+
+#app-launch {
+  padding: 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+#app-launch:hover {
+  background: var(--accent-color);
+  color: black;
+}
+#about-me-header{
+    font-size: 48px;
+}
