@@ -84,7 +84,6 @@ p {
   padding: 20px;
   border-radius: 4px;
   text-decoration: none;
-  text-align: center;
 }
 #app-launch:hover {
   background: var(--accent-color);
@@ -92,4 +91,11 @@ p {
 }
 #about-me-header{
     font-size: 48px;
+}
+
+@media(max-width: 900px){
+    .primary-link{
+        display: flex;
+        justify-content: center;
+    }
 }
